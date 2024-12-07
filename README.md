@@ -4,9 +4,9 @@ This project provides a Python script to convert GLB files to STL files using th
 
 ## Example GIF
 
-Below is an example GIF showing the conversion process:
+Below is an example GIF showing the input (GLB model) that will be converted:
 
-![Conversion Process](media/output.gif)
+![Input GLB Model](media/output.gif)
 
 ## Prerequisites
 
