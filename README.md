@@ -52,3 +52,9 @@ You can also specify exact files:
 ```bash
 python convert_glb_to_stl.py -i ~/Downloads/model.glb -o ~/3d_prints
 ```
+
+### Example GIF
+
+Below is an example GIF showing the conversion process:
+
+![Conversion Process](media/output.gif)
