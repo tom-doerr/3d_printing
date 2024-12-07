@@ -16,13 +16,14 @@ This project provides a Python script to convert GLB files to STL files using th
 
 ## Usage
 
-1. Place your GLB file in the `Downloads` directory.
+1. Save your GLB file(s) in your system's Downloads directory.
 2. Run the conversion script:
    ```bash
    python convert_glb_to_stl.py
    ```
-3. The converted STL file will be saved in the `output` folder with the same base name as the input GLB file.
+3. The script will automatically find the most recently modified GLB file in your Downloads directory and convert it.
+4. The converted STL file will be saved in the `output` folder with the same base name as the input GLB file.
 
 ## Example
 
-If you have a GLB file named `780de11f-2099-4110-9acd-2e24f8df1f6c.glb`, running the script will produce an STL file named `780de11f-2099-4110-9acd-2e24f8df1f6c.stl` in the `output` folder.
+If you have several GLB files in your Downloads folder, the script will automatically select the most recently modified one. For instance, if your newest GLB file is named `model.glb`, running the script will produce `model.stl` in the `output` folder.
