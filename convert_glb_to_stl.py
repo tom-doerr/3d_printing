@@ -1,8 +1,14 @@
 import os
+import glob
 from aspose.threed import Scene
 
-# Load the GLB file
-input_file = "/home/tom/Downloads/780de11f-2099-4110-9acd-2e24f8df1f6c.glb"
+# Find the most recent .glb file in Downloads
+downloads_path = os.path.expanduser("~/Downloads")
+list_of_glb = glob.glob(os.path.join(downloads_path, "*.glb"))
+if not list_of_glb:
+    raise Exception("No .glb files found in Downloads directory")
+    
+input_file = max(list_of_glb, key=os.path.getmtime)
 scene = Scene.from_file(input_file)
 
 # Create the output folder if it doesn't exist
