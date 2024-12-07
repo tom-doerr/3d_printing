@@ -1,60 +1,91 @@
-# GLB to STL Converter
+<div align="center">
 
-This project provides a Python script to convert GLB files to STL files using the Aspose.3D library.
+# 🔄 GLB to STL Converter
 
-## Example GIF
+[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Below is an example GIF showing the input (GLB model) that will be converted:
+A powerful Python tool to convert GLB files to STL format using Aspose.3D library
 
-![Input GLB Model](media/output.gif)
+---
 
-## Prerequisites
+### 🎥 Input Model Preview
+
+<p align="center">
+  <img src="media/output.gif" alt="Input GLB Model" width="600"/>
+</p>
+
+<i>Above: Example GLB model from Microsoft Trailers that will be converted to STL format</i>
+
+---
+
+</div>
+
+## ✨ Features
+
+- 🔍 Automatically finds the newest GLB file in Downloads
+- 🎯 Convert specific GLB files
+- 📁 Customizable input/output directories
+- 🚀 Simple command-line interface
+
+## 🔧 Prerequisites
 
 - Python 3.x
 - Aspose.3D library
 
-## Installation
+## 📦 Installation
 
-1. Install the Aspose.3D library using pip:
-   ```bash
-   pip install aspose-3d
-   ```
+Install the required Aspose.3D library:
 
-## Usage
+```bash
+pip install aspose-3d
+```
 
-The script can be run in several ways:
+## 🚀 Usage
 
-1. Basic usage (converts newest GLB from Downloads):
-   ```bash
-   python convert_glb_to_stl.py
-   ```
+### Basic Usage
+Convert the newest GLB from Downloads:
+```bash
+python convert_glb_to_stl.py
+```
 
-2. Convert a specific GLB file:
+### Advanced Options
+
+1. **Convert Specific File:**
    ```bash
    python convert_glb_to_stl.py --input path/to/your/file.glb
    ```
 
-3. Search for newest GLB in a different directory:
+2. **Custom Input Directory:**
    ```bash
    python convert_glb_to_stl.py --input-dir /path/to/directory
    ```
 
-4. Specify a custom output directory:
+3. **Custom Output Directory:**
    ```bash
    python convert_glb_to_stl.py --output-dir /path/to/output
    ```
 
-### Command Line Arguments
+## 🎮 Command Line Arguments
 
-- `--input`, `-i`: Specify a specific GLB file to convert
-- `--input-dir`: Directory to search for GLB files (default: ~/Downloads)
-- `--output-dir`, `-o`: Output directory for STL files (default: output)
+| Argument | Description |
+|----------|-------------|
+| `--input`, `-i` | Specific GLB file to convert |
+| `--input-dir` | Directory to search for GLB files (default: ~/Downloads) |
+| `--output-dir`, `-o` | Output directory for STL files (default: output) |
 
-## Example
+## 📝 Example
 
-If you have several GLB files in your Downloads folder, running the script without arguments will automatically select the most recently modified one. For instance, if your newest GLB file is named `model.glb`, running the script will produce `model.stl` in the `output` folder.
+Running without arguments will convert the most recent GLB file:
 
-You can also specify exact files:
 ```bash
 python convert_glb_to_stl.py -i ~/Downloads/model.glb -o ~/3d_prints
 ```
+
+<div align="center">
+
+---
+
+Made with ❤️ for 3D printing enthusiasts
+
+</div>
