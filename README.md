@@ -2,8 +2,10 @@
 
 # 🔄 GLB to STL Converter
 
-[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.x](https://img.shields.io/badge/Python-3.x-4B8BBE?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Maintained](https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge)](https://github.com/yourusername/glb-to-stl-converter)
+[![Made with Aspose.3D](https://img.shields.io/badge/Made_with-Aspose.3D-orange?style=for-the-badge)](https://products.aspose.com/3d/)
 
 A powerful Python tool to convert GLB files to STL format using Aspose.3D library
 
@@ -15,7 +17,7 @@ A powerful Python tool to convert GLB files to STL format using Aspose.3D librar
   <img src="media/output.gif" alt="Input GLB Model" width="600"/>
 </p>
 
-<i>Above: Example GLB model from Microsoft Trailers that will be converted to STL format</i>
+<i>Above: Example GLB model from Microsoft TRELLIS that will be converted to STL format</i>
 
 ---
 
