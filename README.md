@@ -90,4 +90,8 @@ python convert_glb_to_stl.py -i ~/Downloads/model.glb -o ~/3d_prints
 
 Made with ❤️ for 3D printing enthusiasts
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 </div>
